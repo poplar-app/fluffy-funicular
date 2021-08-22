@@ -29,7 +29,7 @@ if ('serviceWorker' in navigator) {
                         }
                     });
                 }
-                if (!reg.active && (reg.installing || reg.waiting)) {
+                if (!reg.active && (reg.installing ?? reg.waiting)) {
                     // No active web worker and we have installed or are installing
                     // one for the first time. Simply wait for it to activate.
                     waitForActivation(reg.installing || reg.waiting);
