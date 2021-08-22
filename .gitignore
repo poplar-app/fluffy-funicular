@@ -125,6 +125,7 @@ iOSInjectionProject/
 
 # Web related
 lib/generated_plugin_registrant.dart
+.last_build_id
 
 # Symbolication related
 app.*.symbols
