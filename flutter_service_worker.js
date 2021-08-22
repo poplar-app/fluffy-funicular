@@ -150,7 +150,7 @@ const RESOURCES = {
 const CORE = [
     "/",
     "css/styles.css",
-    "icons/*",
+    "icons/android-chrome-192x192.png",
     "loadMainDart.js",
     "main.dart.js",
     "index.html",
