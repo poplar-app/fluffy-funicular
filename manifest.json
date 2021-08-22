@@ -1,7 +1,7 @@
 {
     "name": "poplar_food",
     "short_name": "poplar_food",
-    "start_url": "/fluffy-funicular/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
