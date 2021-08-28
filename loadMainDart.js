@@ -3,7 +3,7 @@ var scriptLoaded = false;
 
 function loadMainDartJs() {
     if (scriptLoaded) {
-	console.log('scriptLoaded is ' + scriptLoaded)
+        console.log('scriptLoaded is ' + scriptLoaded)
         return;
     }
     scriptLoaded = true;
@@ -33,7 +33,7 @@ if ('serviceWorker' in navigator) {
                 if (!reg.active && (reg.installing || reg.waiting)) {
                     // No active web worker and we have installed or are installing
                     // one for the first time. Simply wait for it to activate.
-                    waitForActivation(reg.installing ?? reg.waiting);
+                    waitForActivation(reg.installing || reg.waiting);
                 } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
                     // When the app updates the serviceWorkerVersion changes, so we
                     // need to ask the service worker to update.
