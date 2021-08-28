@@ -203,12 +203,12 @@ const CORE = [
     "/",
     "css/styles.css",
     "icons/android-chrome-192x192.png",
+    "assets/NOTICES",
+    "assets/AssetManifest.json",
+    "assets/FontManifest.json",
     "loadMainDart.js",
     "main.dart.js",
     "index.html",
-    "assets/NOTICES",
-    "assets/AssetManifest.json",
-    "assets/FontManifest.json"
 ];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {

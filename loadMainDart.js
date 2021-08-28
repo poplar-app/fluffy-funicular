@@ -1,8 +1,9 @@
-var serviceWorkerVersion = 0.1;
+var serviceWorkerVersion = '3559288669';
 var scriptLoaded = false;
 
 function loadMainDartJs() {
     if (scriptLoaded) {
+	console.log('scriptLoaded is ' + scriptLoaded)
         return;
     }
     scriptLoaded = true;
