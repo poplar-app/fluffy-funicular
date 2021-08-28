@@ -56,7 +56,7 @@ if ('serviceWorker' in navigator) {
                 );
                 loadMainDartJs();
             }
-        }, 4000);
+        }, 6000);
     });
 } else {
     // Service workers not supported. Just drop the <script> tag.
